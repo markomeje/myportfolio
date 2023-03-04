@@ -1,0 +1,11 @@
+h1 {
+   font-family: 'Poppins', sans-serif;
+}
+
+.object-cover {
+   object-fit: cover;
+}
+
+.fantasy-font {
+   font-family: 'fantasy';
+}
