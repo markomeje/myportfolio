@@ -26,7 +26,7 @@ export const projects = [
       done: true
    },
    {
-      text: 'A fullstack multi-vendor ecommerce web application for building materials marchandising, tracking and delivery.',
+      text: 'A ongoing fullstack multi-vendor ecommerce web application for building materials marchandising, tracking and delivery.',
       image: buildadom,
       skills: ['Typescript', 'AWS', 'Git', 'Laravel', 'MySql', 'Reactjs', 'Bootstrap', 'Restful API'],
       links: {web: 'https://main.dij0qcdp9s45x.amplifyapp.com'},
