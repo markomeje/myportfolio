@@ -1,5 +1,5 @@
 import { Col, Container, Row, Image, Card, Button } from 'react-bootstrap';
-import markomeje from '../src/assets/mark.png';
+import markomeje from '../src/assets/markomeje.png';
 import { IoLogoWhatsapp, IoLogoLinkedin, IoLogoGithub } from 'react-icons/io';
 import { SiGmail } from 'react-icons/si';
 import { projects } from '../src/data/projects';
@@ -76,13 +76,13 @@ export default function App() {
                               <Image src={image} className='img-fluid border h-100 w-100' style={{ borderRadius: '10px', objectFit: 'contain' }} />
                            </div>
                            <div className='d-flex align-items-center mb-3'>
-                              {links['web'] ? (<a href={`${links['web']}`} className='rounded-pill text-center bg-primary px-3 py-1 me-3'>
+                              {links['web'] ? (<a href={`${links['web']}`} target="_blank" className='rounded-pill text-center bg-primary px-3 py-1 me-3'>
                                  <small className='text-white'>Web</small>
                               </a>) : null}
-                              {links['ios'] ? (<a href={`${links['ios']}`} className='rounded-pill text-center bg-primary px-3 py-1 me-3'>
+                              {links['ios'] ? (<a href={`${links['ios']}`} target="_blank" className='rounded-pill text-center bg-primary px-3 py-1 me-3'>
                                  <small className='text-white'>IOS</small>
                               </a>) : null}
-                              {links['android'] ? (<a href={`${links['android']}`} className='rounded-pill text-center bg-primary px-3 py-1 me-3'>
+                              {links['android'] ? (<a href={`${links['android']}`} target="_blank" className='rounded-pill text-center bg-primary px-3 py-1 me-3'>
                                  <small className='text-white'>Android</small>
                               </a>) : null}
                            </div>
