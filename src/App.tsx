@@ -10,10 +10,12 @@ import reactjs from '../src/assets/technologies/reactjs.png';
 import laravel from '../src/assets/technologies/laravel.png';
 import aws from '../src/assets/technologies/aws.png';
 import vuejs from '../src/assets/technologies/vuejs.png';
+
 import typescript from '../src/assets/technologies/typescript.png';
 import heroku from '../src/assets/technologies/heroku.png';
 import git from '../src/assets/technologies/git.png';
 import mysql from '../src/assets/technologies/mysql.png';
+import nextjs from '../src/assets/technologies/nextjs.png';
 
 import bootstrap from '../src/assets/technologies/bootstrap.png';
 import digitalocean from '../src/assets/technologies/digitalocean.png';
@@ -104,7 +106,7 @@ export default function App() {
             <Container style={{ maxWidth: `${maxWidth}` }}>
                <h1 className='h1 mb-4'>My Skills</h1>
                <Row>
-                  {[reactjs, laravel, aws, vuejs, typescript, slimphp, heroku, git, mysql, bootstrap, digitalocean, codeigniter, nodejs, docker, lumen, jira].map((logo, index) => {
+                  {[reactjs, laravel, aws, vuejs, typescript, slimphp, heroku, git, mysql, bootstrap, digitalocean, codeigniter, nodejs, docker, lumen, jira, nextjs].map((logo, index) => {
                      return (<Col xs='6' md='4' lg='3' className='mb-4' key={index}>
                         <div className='bg-white p-2 border' style={{ height: '80px', borderRadius: '10px' }}>
                            <Image src={logo} className='h-100 w-100' style={{ borderRadius: '10px', objectFit: 'contain' }} />
