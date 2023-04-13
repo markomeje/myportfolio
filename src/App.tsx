@@ -58,7 +58,7 @@ export default function App() {
                      </Col>
                      <Col xs='12' md='5' className='mb-4'> 
                         <div className='bg-light border d-block' style={{ borderRadius: '34px' }}>
-                           <Image src={markomeje} className='h-100 w-100' style={{ objectFit: 'contain', borderRadius: '34px' }} alt='Mark Omeje' />
+                           <Image src={markomeje} className='h-100 w-100' style={{ objectFit: 'cover', borderRadius: '34px' }} alt='Mark Omeje' />
                         </div>
                      </Col>
                   </Row>
