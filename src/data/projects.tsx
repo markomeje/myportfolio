@@ -24,7 +24,7 @@ export const projects = [
     text: 'I worked as a remote fullstack Laravel developer on a multi-vendor ecommerce web application for building materials marchandising. I built API endpoints related to authentication, verifications, file upload to AWS s3 etc. I also setup deployment to both netlify and AWS amplify. The project is even still ongoing.',
     image: buildadom,
     skills: ['Typescript', 'AWS', 'Git', 'Laravel', 'MySql', 'Reactjs', 'Bootstrap', 'Restful API', 'Netlify', 'Nextjs', 'JWT'],
-    links: {web: 'https://frtabjousj.netlify.app'},
+    links: {web: 'https://buildadom.netlify.app'},
     done: false
   },
   {
