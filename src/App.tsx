@@ -26,6 +26,7 @@ import nodejs from '../src/assets/technologies/nodejs.png';
 import lumen from '../src/assets/technologies/lumen.png';
 import slimphp from '../src/assets/technologies/slimphp.png';
 import jira from '../src/assets/technologies/jira.png';
+import redux from '../src/assets/technologies/redux.png';
 
 export default function App() {
    const maxWidth = '969px';
@@ -106,7 +107,7 @@ export default function App() {
             <Container style={{ maxWidth: `${maxWidth}` }}>
                <h1 className='h1 mb-4'>My Skills</h1>
                <Row>
-                  {[reactjs, laravel, aws, vuejs, typescript, slimphp, heroku, git, mysql, bootstrap, digitalocean, codeigniter, nodejs, docker, lumen, jira, nextjs].map((logo, index) => {
+                  {[reactjs, laravel, aws, vuejs, typescript, slimphp, heroku, git, mysql, bootstrap, digitalocean, codeigniter, nodejs, docker, lumen, jira, nextjs, redux].map((logo, index) => {
                      return (<Col xs='6' md='4' lg='3' className='mb-4' key={index}>
                         <div className='bg-white p-2 border' style={{ height: '80px', borderRadius: '10px' }}>
                            <Image src={logo} className='h-100 w-100' style={{ borderRadius: '10px', objectFit: 'contain' }} />
